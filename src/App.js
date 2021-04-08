@@ -5,7 +5,10 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Home from './components/home'
+import Home from './components/home';
+import Articles from './components/articles';
+import Tutorials from './components/tutorials';
+import About from './components/about';
 
 export default function App() {
   return (
@@ -19,10 +22,13 @@ export default function App() {
                   <Link to='/'>Home</Link>
               </li>
               <li>
-                  <Link to='/about'>About</Link>
+                  <Link to='/articles'>Articles</Link>
               </li>
               <li>
-                  <Link to='/users'>Users</Link>
+                  <Link to='/tutorials'>Tutorials</Link>
+              </li>
+              <li>
+                  <Link to='/about'>About</Link>
               </li>
           </ul>
       </nav>
@@ -30,12 +36,16 @@ export default function App() {
             renders the first one that matches the current URL. */ }
       <Switch>
 
-        <Route path='/about'>
-          <About />
+        <Route path='/articles'>
+          <Articles />
         </Route>
 
-        <Route path='/users'>
-          <Users />
+        <Route path='/tutorials'>
+          <Tutorials />
+        </Route>
+        
+        <Route path='/about'>
+          <About />
         </Route>
 
         <Route>
@@ -53,14 +63,6 @@ export default function App() {
   
 }
 
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
 
  /* - home is at the end of the router and IN switch so if no path (previous links) is loaded,
    it loads the one without defined path (home)
