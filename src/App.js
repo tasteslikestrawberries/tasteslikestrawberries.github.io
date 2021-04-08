@@ -6,10 +6,10 @@ import {
 } from 'react-router-dom';
 
 //components
-import Home from './components/home';
-import Articles from './components/articles';
-import Tutorials from './components/tutorials';
-import About from './components/about';
+import Home from './pages/home';
+import Articles from './pages/articles';
+import Tutorials from './pages/tutorials';
+import About from './pages/about';
 import Navigation from './components/navigation';
 
 //custom styles
@@ -24,7 +24,7 @@ export default function App() {
 
     { /* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */ }
-            
+
       <Switch>
 
         <Route path='/articles'>
