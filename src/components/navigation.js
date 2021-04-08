@@ -3,30 +3,48 @@ import {
     Link
   } from "react-router-dom";
 
-//material-ui
-import {  
-  AppBar,
-  Tabs,
-  Tab   
-          } from '@material-ui/core/';
-
 
 const Navigation = () => {
      return (
-        <AppBar>
-            <Tabs className='tabs'
-            >
-              <Tab label='Home' component={Link} to='/home'  />
-              <Tab label='Articles' component={Link} to='/articles'  />
-              <Tab label='Tutorials' component={Link} to='/tutorials' />
-              <Tab label='About' component={Link} to='/about' />
-            </Tabs>
-          
-        </AppBar>
+    <nav>
+      <ul>
+          <li>
+              <Link to='/' style={{ color: '#181717' }}>Home</Link>
+          </li>
+          <li>
+              <Link to='/articles'>Articles</Link>
+          </li>
+          <li>
+              <Link to='/tutorials'>Tutorials</Link>
+          </li>
+          <li>
+              <Link to='/about'>About</Link>
+          </li>
+      </ul>
+    </nav> 
+      
      )
 }
 
 export default Navigation
 
-//https://material-ui.com/api/tabs/
-//https://paulgrajewski.medium.com/react-material-ui-drawer-with-routes-8e27c91b6119
+/* custom navigation bar
+
+      <nav>
+          <ul>
+              <li>
+                  <Link to='/'>Home</Link>
+              </li>
+              <li>
+                  <Link to='/articles'>Articles</Link>
+              </li>
+              <li>
+                  <Link to='/tutorials'>Tutorials</Link>
+              </li>
+              <li>
+                  <Link to='/about'>About</Link>
+              </li>
+          </ul>
+        </nav> 
+
+*/

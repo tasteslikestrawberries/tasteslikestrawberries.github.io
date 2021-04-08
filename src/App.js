@@ -12,7 +12,7 @@ import Tutorials from './pages/tutorials';
 import About from './pages/about';
 import Navigation from './components/navigation';
 
-//custom styles
+//styles
 import './App.css';
 
 export default function App() {
@@ -61,23 +61,3 @@ export default function App() {
    just the 1st one loads and the other ones don't  
 */
 
-/* custom navigation bar
-
-      <nav>
-          <ul>
-              <li>
-                  <Link to='/'>Home</Link>
-              </li>
-              <li>
-                  <Link to='/articles'>Articles</Link>
-              </li>
-              <li>
-                  <Link to='/tutorials'>Tutorials</Link>
-              </li>
-              <li>
-                  <Link to='/about'>About</Link>
-              </li>
-          </ul>
-        </nav> 
-
-*/
