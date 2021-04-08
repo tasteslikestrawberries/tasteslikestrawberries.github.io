@@ -1,39 +1,30 @@
-import './App.css';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
+
+//components
 import Home from './components/home';
 import Articles from './components/articles';
 import Tutorials from './components/tutorials';
 import About from './components/about';
+import Navigation from './components/navigation';
+
+//custom styles
+import './App.css';
 
 export default function App() {
   return (
    <Router>
 
     <>
+    <Navigation />
 
-      <nav>
-          <ul>
-              <li>
-                  <Link to='/'>Home</Link>
-              </li>
-              <li>
-                  <Link to='/articles'>Articles</Link>
-              </li>
-              <li>
-                  <Link to='/tutorials'>Tutorials</Link>
-              </li>
-              <li>
-                  <Link to='/about'>About</Link>
-              </li>
-          </ul>
-      </nav>
     { /* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */ }
+            
       <Switch>
 
         <Route path='/articles'>
@@ -68,4 +59,25 @@ export default function App() {
    it loads the one without defined path (home)
    - without switch router would load every component with or without path, but with switch 
    just the 1st one loads and the other ones don't  
+*/
+
+/* custom navigation bar
+
+      <nav>
+          <ul>
+              <li>
+                  <Link to='/'>Home</Link>
+              </li>
+              <li>
+                  <Link to='/articles'>Articles</Link>
+              </li>
+              <li>
+                  <Link to='/tutorials'>Tutorials</Link>
+              </li>
+              <li>
+                  <Link to='/about'>About</Link>
+              </li>
+          </ul>
+        </nav> 
+
 */
