@@ -37,7 +37,7 @@ export default function App() {
         </Route>
 
         <Route path='/portfolio'>
-          <Tutorials />
+          <Portfolio />
         </Route>
         
         <Route path='/about'>
