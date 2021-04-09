@@ -9,6 +9,7 @@ import {
 import Home from './pages/home';
 import Articles from './pages/articles';
 import Tutorials from './pages/tutorials';
+import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Navigation from './components/navigation';
 
@@ -32,6 +33,10 @@ export default function App() {
         </Route>
 
         <Route path='/tutorials'>
+          <Tutorials />
+        </Route>
+
+        <Route path='/portfolio'>
           <Tutorials />
         </Route>
         

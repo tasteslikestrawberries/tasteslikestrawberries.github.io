@@ -3,19 +3,23 @@ import {
     Link
   } from "react-router-dom";
 
+//assets
+import logo from './assets/logo.png';
+
 
 const Navigation = () => {
      return (
     <nav>
-      <ul>
-          <li>
-              <Link to='/' style={{ color: '#181717' }}>Home</Link>
-          </li>
+      <ul>      
+             <Link to="/"> <img id='logo' src={logo} alt='Logo' width='60px' height='80px' /></Link>
           <li>
               <Link to='/articles'>Articles</Link>
           </li>
           <li>
               <Link to='/tutorials'>Tutorials</Link>
+          </li>
+          <li>
+              <Link to='/portfolio'>Portfolio</Link>
           </li>
           <li>
               <Link to='/about'>About</Link>
@@ -47,4 +51,8 @@ export default Navigation
           </ul>
         </nav> 
 
+*/
+
+/* inline style
+<Link to='/' style={{ color: '#181717' }}>Home</Link>
 */

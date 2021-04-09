@@ -11,13 +11,14 @@
   a:link, a:visited, a:active  {
     text-decoration: none; 
     color: #da0243;
+    font-weight: bold;
   }
 
 
   nav {
     margin: 0;
     padding: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #ffffff;
     
     
@@ -28,7 +29,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    
   }
 
   nav ul li {
@@ -37,11 +38,15 @@
     text-align: center;
   }
 
-  li a:hover {
+  nav ul li a:hover {
     background-color: #da0243;
     color: white;
     padding: 3%;
     border-radius: 3%;
+  }
+
+  #logo {
+    margin-right: 300px;
   }
 
 /* Responsive Nav Bar */
@@ -50,6 +55,6 @@
     flex-direction: column;
   }
   nav ul li {
-    text-align: center;
+    
   }
 }
