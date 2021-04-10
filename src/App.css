@@ -51,24 +51,78 @@
     padding-left: 2rem;
   }
 
-/* Responsive Nav Bar */
+
+/*HAMBURGER MENU*/
+.hamburger {
+  position: relative;
+}
+
+.hamburger button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 20;
+  cursor: pointer;
+  background: transparent;
+  outline: none; /*outline should exist for accessibility!*/
+  border: none;
+  box-shadow: none;
+}
+
+.hamburgerMenu {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #da0243;
+  height: 100vh;
+  width: 0;
+  max-width: 290px;
+  z-index: 10;
+}
+
+.hamburgerMenu.showMenu {
+  width: 100%;
+}
+
+.hamburger a {
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.hamburgerMenu li:first-child {
+  margin-top: 7rem;
+}
+
+/*RESPONSIVE NAVIGATION*/
+@media only screen and ( min-width: 600px ) {
+  .hamburger {
+    display:none;
+  }
+
+}  
+
 @media all and (max-width: 600px) {
-  nav ul {
+  .hamburgerMenu {
     flex-direction: column;
   }
 
   #logo {
     margin:auto;
+    padding:0;
   }
 
   nav ul li {
-    padding: 0.5rem;
-    margin: auto;
-   
-    /* display:none; */ /*add menu button later*/ 
+    display: none;
   }
 
-}
+ 
+
+}  
 
 /*HOME*/
 .home{
