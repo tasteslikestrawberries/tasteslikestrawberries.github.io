@@ -13,7 +13,7 @@ const Navigation = () => {
     
       <ul>   
           
-              <Link id='logo' to="/"> <img src={logo} alt='Logo' width='60px' height='80px' /></Link>   
+              <Link id='logo' to="/"><img src={logo} alt='Logo'/></Link>   
          
           <li>
               <Link to='/articles'>Articles</Link>
