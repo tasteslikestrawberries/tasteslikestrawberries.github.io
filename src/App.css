@@ -29,13 +29,12 @@
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: flex-end;
     
   }
 
   nav ul li {
-    padding: 0.5rem;
-    flex: auto;
-    text-align: center;
+    padding: 2rem;
   }
 
   nav ul li a:hover {
@@ -46,7 +45,8 @@
   }
 
   #logo {
-    margin-right: 300px;
+    margin-right: auto;
+    padding-left: 2rem;
   }
 
 /* Responsive Nav Bar */
@@ -54,7 +54,14 @@
   nav ul {
     flex-direction: column;
   }
-  nav ul li {
-    
+  #logo {
+    margin:auto;
   }
+
+  nav ul li {
+    padding: 0.5rem;
+    margin: auto;
+    /* display:none; */ /*add menu button later*/ 
+  }
+
 }

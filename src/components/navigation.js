@@ -10,8 +10,11 @@ import logo from './assets/logo.png';
 const Navigation = () => {
      return (
     <nav>
-      <ul>      
-             <Link to="/"> <img id='logo' src={logo} alt='Logo' width='60px' height='80px' /></Link>
+    
+      <ul>   
+          
+              <Link id='logo' to="/"> <img src={logo} alt='Logo' width='60px' height='80px' /></Link>   
+         
           <li>
               <Link to='/articles'>Articles</Link>
           </li>
