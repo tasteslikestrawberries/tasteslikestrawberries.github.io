@@ -11,7 +11,7 @@
 
   a:link, a:visited, a:active  {
     text-decoration: none; 
-    color: #da0243;
+    color: #FC5050;
     font-weight: bold;
   }
 
@@ -40,7 +40,7 @@
   }
 
   nav ul li a:hover {
-    background-color: #da0243;
+    background-color: #FC5050;
     color: white;
     padding: 10%;
     border-radius: 5%;
@@ -51,6 +51,20 @@
     padding-left: 2rem;
   }
 
+/*DESKTOP SCREENS*/
+@media only screen and ( min-width: 600px ) {
+  .hamburger {
+    display:none;
+  }
+}  
+
+/*MOBILE SCREENS*/
+
+@media all and (max-width: 600px) {
+  .hamburgerMenu {
+    flex-direction: column;
+    color: #fff;
+  }
 
 /*HAMBURGER MENU*/
 .hamburger {
@@ -70,57 +84,45 @@
 }
 
 .hamburgerMenu {
-  list-style: none;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  background: #da0243;
-  height: 100vh;
-  width: 0;
-  max-width: 290px;
+  background: #2e2e2e;
+  width: 0; /*because it has to be invisible until clicked (showMenu) */
   z-index: 10;
 }
 
 .hamburgerMenu.showMenu {
   width: 100%;
+  max-height: 80vh;
 }
 
-.hamburger a {
-  
+.hamburger a{
+  position:relative;
+  display: list-item;
+  list-style-type: none;
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+  font-size: 2rem;
+  color: #FC5050;
+  top: 25vh;
+  padding: 1rem;
+  text-align:center;
 }
 
-.hamburgerMenu li:first-child {
-  margin-top: 7rem;
+.hamburgerMenu span:first-child {
+  margin-top: 6rem;
 }
-
-/*RESPONSIVE NAVIGATION*/
-@media only screen and ( min-width: 600px ) {
-  .hamburger {
-    display:none;
-  }
-
-}  
-
-@media all and (max-width: 600px) {
-  .hamburgerMenu {
-    flex-direction: column;
-  }
 
   #logo {
     margin:auto;
     padding:0;
+    z-index:1000;
   }
 
   nav ul li {
     display: none;
   }
-
- 
 
 }  
 

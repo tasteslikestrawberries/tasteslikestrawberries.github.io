@@ -13,31 +13,28 @@ const Hamburger = () => {
         setHamburgerOpen(prev => !prev)
       }
       const closeMenu = () => {
-        setHamburgerOpen(false)
+        return setHamburgerOpen(false)
       }
         return (
             <nav className="hamburger">
                 <button onClick={handleToggle}>{hamburgerOpen ? (
                      <HiOutlineX style={{ color: "#ffffff", width: "40px", height: "40px" }} />
                     ) : (
-                    <HiMenu style={{ color: "#da0243", width: "40px", height: "40px" }} />
+                    <HiMenu style={{ color: "#181717", width: "40px", height: "40px" }} />
                     )}
                 </button>
 
-                    <ul className={`hamburgerMenu ${hamburgerOpen ? " showMenu" : ""}`}>
-                        <li>
+                    <div className={`hamburgerMenu ${hamburgerOpen ? " showMenu" : ""}`}>
+                        
                             <Link onClick={() => closeMenu()} to='/articles'>Articles</Link>
-                        </li>
-                        <li>
+                        
                             <Link onClick={() => closeMenu()} to='/tutorials'>Tutorials</Link>
-                        </li>
-                        <li>
+                        
                             <Link onClick={() => closeMenu()} to='/portfolio'>Portfolio</Link>
-                        </li>
-                        <li>
+                        
                             <Link onClick={() => closeMenu()} to='/about'>About</Link>
-                        </li>
-                    </ul>
+                       
+                    </div>
    
                     
             </nav>
