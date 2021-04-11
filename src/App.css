@@ -51,81 +51,11 @@
     padding-left: 2rem;
   }
 
-/*DESKTOP SCREENS*/
-@media only screen and ( min-width: 600px ) {
-  .hamburger {
-    display:none;
+  @media all and (max-width: 800px) {
+    nav ul {
+      flex-direction: column;
+    }
   }
-}  
-
-/*MOBILE SCREENS*/
-
-@media all and (max-width: 600px) {
-  .hamburgerMenu {
-    flex-direction: column;
-    color: #fff;
-  }
-
-/*HAMBURGER MENU*/
-.hamburger {
-  position: relative;
-}
-
-.hamburger button {
-  position: fixed;
-  left: 40px;
-  top: 40px;
-  z-index: 20;
-  cursor: pointer;
-  background: transparent;
-  outline: none; /*outline should exist for accessibility!*/
-  border: none;
-  box-shadow: none;
-}
-
-.hamburgerMenu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background: #2e2e2e;
-  width: 0; /*because it has to be invisible until clicked (showMenu) */
-  z-index: 10;
-}
-
-.hamburgerMenu.showMenu {
-  width: 100%;
-  max-height: 80vh;
-}
-
-.hamburger a{
-  position:relative;
-  display: list-item;
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 2rem;
-  color: #FC5050;
-  top: 25vh;
-  padding: 1rem;
-  text-align:center;
-}
-
-.hamburgerMenu span:first-child {
-  margin-top: 6rem;
-}
-
-  #logo {
-    margin:auto;
-    padding:0;
-    z-index:1000;
-  }
-
-  nav ul li {
-    display: none;
-  }
-
-}  
-
 /*HOME*/
 .home{
   margin: 0;

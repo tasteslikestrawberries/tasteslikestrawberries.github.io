@@ -12,7 +12,6 @@ import Tutorials from './pages/tutorials';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Navigation from './components/navigation';
-import Hamburger from './components/hamburger';
 
 //styles
 import './App.css';
@@ -22,7 +21,6 @@ export default function App() {
    <Router>
 
     <>
-    <Hamburger />
     <Navigation />
 
     { /* A <Switch> looks through its children <Route>s and

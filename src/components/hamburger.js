@@ -7,24 +7,24 @@ import {
 import { HiOutlineX } from 'react-icons/hi';
 import { HiMenu } from 'react-icons/hi';
 
-const Hamburger = () => {
-    const [hamburgerOpen, setHamburgerOpen] = useState(false) 
+const Burger = () => {
+    const [burgerOpen, setBurgerOpen] = useState(false) 
     const handleToggle = () => {
-        setHamburgerOpen(prev => !prev)
+        setBurgerOpen(prev => !prev)
       }
       const closeMenu = () => {
-        return setHamburgerOpen(false)
+        return setBurgerOpen(false)
       }
         return (
-            <nav className="hamburger">
-                <button onClick={handleToggle}>{hamburgerOpen ? (
+            <div className="burger">
+                <button onClick={handleToggle}>{burgerOpen ? (
                      <HiOutlineX style={{ color: "#ffffff", width: "40px", height: "40px" }} />
                     ) : (
                     <HiMenu style={{ color: "#181717", width: "40px", height: "40px" }} />
                     )}
                 </button>
 
-                    <div className={`hamburgerMenu ${hamburgerOpen ? " showMenu" : ""}`}>
+                {burgerOpen && <div className={'burgerMenu showMenu'}>
                         
                             <Link onClick={() => closeMenu()} to='/articles'>Articles</Link>
                         
@@ -34,18 +34,18 @@ const Hamburger = () => {
                         
                             <Link onClick={() => closeMenu()} to='/about'>About</Link>
                        
-                    </div>
+                    </div> }
    
                     
-            </nav>
+            </div>
    );
 }
 
-export default Hamburger
+export default Burger
 
 
 
- //initial state set to false->menu hidden. Then, onclick, call the updater function, setHamburgerOpen, to update the state
+ //initial state set to false->menu hidden. Then, onclick, call the updater function, setBurgerOpen, to update the state
  //if true->close, else->open
 
  /* 
@@ -64,5 +64,84 @@ We are simply adding a showMenu class to the ul only if the state variable, navb
 When it is false, we remove the class.
 */
 
+/*
+https://ibaslogic.com/how-to-add-hamburger-menu-in-react/ 
 
-//https://ibaslogic.com/how-to-add-hamburger-menu-in-react/ 
+*/
+
+//CSS:
+
+/*
+
+DESKTOP SCREENS
+
+@media only screen and ( min-width: 600px ) {
+  .burger {
+    display:none;
+  }
+}  
+
+MOBILE SCREENS
+
+@media all and (max-width: 600px) {
+  .burgerMenu {
+    flex-direction: column;
+    color: #fff;
+  }
+
+HAMBURGER MENU
+
+.burger {
+  position: relative;
+}
+
+.burger button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 20;
+  cursor: pointer;
+  background: transparent;
+  outline: none; /*outline should exist for accessibility!
+  border: none;
+  box-shadow: none;
+}
+
+
+.burgerMenu.showMenu {
+  width: 100%;
+  max-height: 80vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #2e2e2e;
+  z-index: 10;
+}
+
+.burger a {
+  position:relative;
+  display: list-item;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #FC5050;
+  top: 25vh;
+  padding: 1rem;
+  text-align:center;
+}
+
+
+  #logo {
+    margin:auto;
+    padding:0;
+    z-index:1000;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+}  
+
+*/
