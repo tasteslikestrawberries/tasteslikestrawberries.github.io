@@ -3,7 +3,9 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <>
-        <h1>Hello Portfolio</h1>
+    <div className='header'>
+        <h1>Hello Portfolio!</h1>
+    </div>
         </>
     )
 }

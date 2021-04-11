@@ -9,12 +9,56 @@ import logo from './assets/logo.png';
 
 const Navigation = () => {
      return (
-    <nav>
+        <>
+            <div className='topNav'>
+
+                <div className='left'>
+                <i className='github'>ICON</i>
+                <i className='dribbble'>ICON</i>
+                <i className='something'>ICON</i>
+            </div>
+
+
+                <div className='middle'>
+                <Link className='logo' to="/"><img src={logo} alt='Logo' width='60px' height='80px'/></Link>   
+                 </div>
+
+
+                <div className='right'>
+                <i>THEME TOGGLE</i>
+                </div>
+
+            </div>
+
+            <div className='bottomNav'>
+                 <ul>
+                    <li>
+                    <Link className='item' to='/articles'>Articles</Link>
+                    </li>
+                    <li>
+                    <Link className='item' to='/tutorials'>Tutorials</Link>
+                    </li>
+                    <li>
+                    <Link className='item' to='/portfolio'>Portfolio</Link>
+                    </li>
+                    <li>
+                    <Link className='item' to='/about'>About</Link>
+                    </li>
+                 </ul>
+            </div>
+
+        </>
+     )
+    }
+    
+    export default Navigation
+
+
+  /* 
+   <nav>
     
       <ul>   
-          
-              <Link id='logo' to="/"><img src={logo} alt='Logo'/></Link>   
-         
+              <Link className='logo' to="/"><img src={logo} alt='Logo'/></Link>   
           <li>
               <Link to='/articles'>Articles</Link>
           </li>
@@ -28,13 +72,9 @@ const Navigation = () => {
               <Link to='/about'>About</Link>
           </li>
       </ul>
-    </nav> 
+    </nav> */
       
-     )
-}
-
-export default Navigation
-
+ 
 /* custom navigation bar
 
       <nav>
