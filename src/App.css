@@ -8,17 +8,24 @@
     color: #181717;
   }
 
+  a {
+    padding: 1rem;
+  }
+
   a:link, a:visited, a:active  {
     text-decoration: none; 
-    color: #DA0243;
+    color: #181717;
     font-weight: bold;
   }
 
+  a:hover  {
+    color: #FC5050;
+  }
 
   .header {
     margin: 0;
     padding: 2rem;
-    background-color: #e7e7e7;
+    background-color: #eeeeee;
     position: relative;
     width: 100%;
     height: 25rem;
@@ -37,11 +44,16 @@
   text-align: right;
 }
 
+.left {
+  display: inline-flex;
+}
+
 
 /*BOTTOM NAVIGATION*/
   .bottomNav {
     display: flex;
     align-items: center;
+    letter-spacing: 0.1em;
   }
   
   
@@ -53,17 +65,10 @@
   }
 
   ul li {
-    display: inline;
+    display: inline;   /* arranges link items horizontally */
     padding: 20px;
   }
 
-  a{
-    display:block;
-    padding: 8px;
-  
-  }
-  
-  
   .item {
     font-size: 25px;
     padding: 20px;
@@ -79,16 +84,25 @@
 
   }
 
-  @media all and (max-width: 530px) {
+  @media all and (max-width: 635px) {
     .item{
-      font-size: 14px;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+  }
+
+  @media all and (max-width: 600px) {
+    .item{
+      font-size: 18px;
+      padding: 10px;
     }
     ul li {
-      padding: 10px;
+      padding: 0px;
     }
   }
 
-  @media all and (max-width: 370px) {
+  @media all and (max-width: 440px) {
     .item{
       font-size: 12px;
     }
@@ -97,6 +111,14 @@
     }
   }
 
+  @media all and (max-width: 330px) {
+    .item{
+      font-size: 10px;
+    }
+    ul li {
+      padding: 0px;
+    }
+  }
   
 
 

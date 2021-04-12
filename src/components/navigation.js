@@ -3,6 +3,10 @@ import {
     Link
   } from "react-router-dom";
 
+//icons
+import { FaGithub } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+
 //assets
 import logo from './assets/logo.png';
 
@@ -13,14 +17,13 @@ const Navigation = () => {
             <div className='topNav'>
 
                 <div className='left'>
-                <i className='github'>ICON</i>
-                <i className='dribbble'>ICON</i>
-                <i className='something'>ICON</i>
+                <a href='http://github.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><FaGithub style={{ color: "#FC5050", width: "25px", height: "25px" }}/></a>
+                <a href='http://dribbble.com/tasteslikestrawberries' target='blank' rel='noreferrer'><FaDribbble style={{ color: "#FC5050", width: "25px", height: "25px" }}/></a>
             </div>
 
 
                 <div className='middle'>
-                <Link className='logo' to="/"><img src={logo} alt='Logo' width='60px' height='80px'/></Link>   
+                <Link className='logo' to="/"><img src={logo} alt='Logo' width='90px' height='110px'/></Link>   
                  </div>
 
 
