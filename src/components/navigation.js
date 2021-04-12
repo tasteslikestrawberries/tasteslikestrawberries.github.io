@@ -17,13 +17,13 @@ const Navigation = () => {
             <div className='topNav'>
 
                 <div className='left'>
-                <a href='http://github.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><FaGithub style={{ color: "#FC5050", width: "25px", height: "25px" }}/></a>
+                <a href='http://github.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><FaGithub style={{ color: "#FC5050", width: "25px", height: "25px"}}/></a>
                 <a href='http://dribbble.com/tasteslikestrawberries' target='blank' rel='noreferrer'><FaDribbble style={{ color: "#FC5050", width: "25px", height: "25px" }}/></a>
             </div>
 
 
                 <div className='middle'>
-                <Link className='logo' to="/"><img src={logo} alt='Logo' width='90px' height='110px'/></Link>   
+                <Link className='logo' to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>   
                  </div>
 
 
@@ -33,7 +33,7 @@ const Navigation = () => {
 
             </div>
 
-            <div className='bottomNav'>
+            <nav className='bottomNav'>
                  <ul>
                     <li>
                     <Link className='item' to='/articles'>Articles</Link>
@@ -48,7 +48,7 @@ const Navigation = () => {
                     <Link className='item' to='/about'>About</Link>
                     </li>
                  </ul>
-            </div>
+            </nav>
 
         </>
      )
