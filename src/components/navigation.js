@@ -23,12 +23,12 @@ const Navigation = () => {
 
 
                 <div className='middle'>
-                <Link className='logo' to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>   
+                <Link to="/"><img className='logo' src={logo} alt='logo' width='90px' height='110px'/></Link>   
                  </div>
 
 
                 <div className='right'>
-                <i>THEME TOGGLE</i>
+                <i>T.TOGGLE</i>
                 </div>
 
             </div>

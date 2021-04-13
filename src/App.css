@@ -21,95 +21,103 @@ a:hover  {
 }
 
 .header {
-  margin-top: 20px;
+  margin-top: 1rem;
   padding: 1rem;
   width: 100%;
   height: 25rem;
   background-color: #eeeeee ;
 }
 
+h1 {
+  margin:0;
+}
 
 /*TOP NAVIGATION*/
 .topNav {
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 
 .right {
-display:inline-flex;
+  display:inline-flex;
 }
 
 .left {
-display: inline-flex;
+  display: inline-flex;
 }
+
+.middle {
+  display:inline-flex;
+}
+
 
 /*BOTTOM NAVIGATION*/
 .bottomNav {
   letter-spacing: 0.1em; 
   background-color:#eeeeee;
-  
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: center; /*centers .items */
 }
 
  ul {
-  margin: auto;
-  padding:0;
-  text-align:center;
-  /*display: flex;
-  justify-content: flex-end;*/
+ margin:0;
+ padding:0;
 }
 
 ul li {
-  display: inline;   /* arranges link items horizontally */
+  display: inline-flex;  
+  font-size: 25px;
 }
 
-.item {
-  font-size: 25px;
-  display: inline-block;
-}
 
 /*RESPONSIVE NAVIGATION*/
-@media all and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .item{
     font-size: 20px;
-    padding: 10px;
   }
 
 }
 
-@media all and (max-width: 635px) {
+
+@media screen and (max-width: 600px) {
   .item{
     font-size: 18px;
-    padding: 10px;
   }
 
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 440px) {
   .item{
-    font-size: 18px;
-    padding: 10px;
+    font-size: 14px;
   }
-  ul li {
-    padding: 0px;
-  }
+  
 }
 
-@media all and (max-width: 440px) {
+@media screen and (max-width: 385px) {
   .item{
     font-size: 12px;
   }
-  ul li {
-    padding: 0px;
-  }
+  
 }
 
-@media all and (max-width: 330px) {
+@media screen and (max-width: 360px) {
   .item{
     font-size: 10px;
   }
-  ul li {
-    padding: 0px;
+  
+}
+
+@media screen and (max-width: 330px) {
+  .logo {
+    width: 50px;
+    height: 65px;
+  }
+  a:link, a:visited, a:active  {
+    padding: 0.5rem;
   }
 }
