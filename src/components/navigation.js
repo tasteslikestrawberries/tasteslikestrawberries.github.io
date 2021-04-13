@@ -79,7 +79,6 @@ const Navigation = () => {
       
  
 /* custom navigation bar
-
       <nav>
           <ul>
               <li>
@@ -96,7 +95,6 @@ const Navigation = () => {
               </li>
           </ul>
         </nav> 
-
 */
 
 /* inline style
