@@ -12,6 +12,7 @@ import Tutorials from './pages/tutorials';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Navigation from './components/navigation';
+import Footer from './components/footer';
 
 //styles
 import './App.css';
@@ -49,7 +50,7 @@ export default function App() {
         </Route>
 
       </Switch>
-
+                      <Footer/>
     </>
 
    </Router>
