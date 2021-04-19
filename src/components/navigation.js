@@ -5,7 +5,8 @@ import {
   } from "react-router-dom";
 
   //icons
-  import { FaMoon } from "react-icons/fa";
+  import { Icon, InlineIcon } from '@iconify/react';
+  import firstQuarterMoonFace from '@iconify/icons-emojione-v1/first-quarter-moon-face';
 
 //assets
 import logo from './assets/logo.png';
@@ -14,7 +15,7 @@ import logo from './assets/logo.png';
 const Navigation = () => {
      return (
 <>
-
+<Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
 <nav>
    
       <div className="logo">
@@ -24,27 +25,20 @@ const Navigation = () => {
       
     
       <div className="menuItems">
-      <ul>
-                    <li>
-                    <Link className='item' to='/articles'>Articles</Link>
-                    </li>
-                    <li>
-                    <Link className='item' to='/tutorials'>Tutorials</Link>
-                    </li>
-                    <li>
-                    <Link className='item' to='/portfolio'>Portfolio</Link>
-                    </li>
-                    <li>
-                    <Link className='item' to='/about'>About</Link>
-                    </li>
-                    <li>
-                    <FaMoon className='themeToggle' style={{ color: '#FC5050', width: '25px', height: '25px' , margin:'0 50 0 50'}}/>
-                    </li>
-                  
-                 </ul>
-                
-      </div>
     
+                  
+                    <Link className='item' to='/articles'>Articles</Link>
+                   
+                  
+                    <Link className='item' to='/tutorials'>Tutorials</Link>
+                   
+                  
+                    <Link className='item' to='/portfolio'>Portfolio</Link>
+                   
+                  
+                    <Link className='item' to='/about'>About</Link>
+
+      </div>
     
      
     </nav>
