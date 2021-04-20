@@ -43,7 +43,9 @@ footer {
 footer a {
   padding: 1rem;
 }
+
 /*NAVIGATION*/
+
 nav {
   display: grid;
   row-gap: 1rem;
@@ -56,7 +58,7 @@ nav>:nth-child(1) {
   margin-right: 20px;
 }
 
-nav :nth-child(2) {
+nav>:nth-child(2) {
   justify-self: center;
 }
 
