@@ -35,6 +35,12 @@ h1 {
   font-size: 2rem;
 }
 
+button {
+  border:none;
+  background: transparent;
+  cursor:pointer;
+}
+
 footer {
   display:flex;
   justify-content: center;

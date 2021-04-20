@@ -21,7 +21,7 @@ const Burger = () => {
                      <HiOutlineX style={{ color: "#ffffff", width: "40px", height: "40px" }} />
                     ) : (
                     <HiMenu style={{ color: "#181717", width: "40px", height: "40px" }} />
-                    )}
+                  
                 </button>
 
                 {burgerOpen && <div className={'burgerMenu showMenu'}>
