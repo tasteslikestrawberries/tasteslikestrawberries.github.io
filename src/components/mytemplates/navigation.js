@@ -13,7 +13,7 @@ import logo from './assets/logo.png';
 
 const Navigation = () => {
 
-    const [Sun, setSun] = useState(false)
+    const [sun, setSun] = useState(false)
     const handleToggle = () => {
       setSun(prev => !prev)
     }
@@ -22,7 +22,7 @@ const Navigation = () => {
     <>
       <nav>
 
-          <button onClick={handleToggle}>{Sun ? (
+          <button onClick={handleToggle}>{sun ? (
               <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
                  ) : (
               <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />

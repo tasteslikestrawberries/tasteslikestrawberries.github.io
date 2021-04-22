@@ -27,7 +27,7 @@ import './styles.css';
 
 export default function App() {
 
-    const [Sun, setSun] = useState(false)
+    const [sun, setSun] = useState(false)
     const handleToggle = () => {
       setSun(prev => !prev)
     }
@@ -44,7 +44,7 @@ export default function App() {
 
       <nav>
      
-      <button onClick={() => { handleToggle(); setDarkTheme();}}>{Sun ? (
+      <button onClick={() => { handleToggle(); setDarkTheme();}}>{sun ? (
               <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
                  ) : (
               <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
