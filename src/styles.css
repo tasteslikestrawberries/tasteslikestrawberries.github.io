@@ -1,6 +1,7 @@
 html {
   font-family: 'Mulish', sans-serif;
   margin:0;
+  padding:0;
 }
 
 
@@ -8,12 +9,15 @@ body {
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-size: 18px;
+  letter-spacing: 0.05rem;
+  color: #181717;
+  font-weight:600;
 }
 
 
 .light-theme {
   background-color: #fff;
-  color: #181717;
   margin:0;
   padding:0;
 }
@@ -52,21 +56,27 @@ body {
 .light-theme .header {
   height: 40vh;
   background-color: #eeeeee ;
-  margin-top:0.5rem;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
 .dark-theme .header {
   height: 40vh;
   background-color:#34353a;
-  margin-top:0.5rem;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
 
+h1 {
+  position: relative;
+  top: 14.5vh;
+  left: 5vw;
+  font-size:30px;
 }
 
 .dark-theme h1 {
   margin:0;
-  font-size: 2rem;
+  font-size: 30px;
   color:#f8f8f8;
 }
 
@@ -77,8 +87,10 @@ button {
 }
 
 footer {
+  position:sticky;
   display:flex;
   justify-content: center;
+  margin-top:5rem;
 }
 
 footer a {
@@ -131,5 +143,24 @@ nav>:nth-child(2) {
   nav a {
     padding: 1rem;
   }
+
+  body {
+    font-size: 18px;
+  }
 }
 
+/*HOMEPAGE*/
+.homePage {
+box-sizing: border-box;
+margin-top:2rem;
+padding: 0 8vw;
+height: fit-content;
+background-color: #fff;
+}
+
+.dark-theme .homePage {
+  box-sizing: border-box;
+  background-color: #2a292c;
+  color: #f8f8f8;
+  height: fit-content;
+  }
