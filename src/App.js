@@ -10,7 +10,7 @@ import {
 import Home from './pages/home';
 import Articles from './pages/articles';
 import Tutorials from './pages/tutorials';
-import Portfolio from './pages/portfolio';
+import Projects from './pages/projects';
 import About from './pages/about';
 import Footer from './components/footer';
 
@@ -63,7 +63,7 @@ export default function App() {
 
               <Link className='item' to='/tutorials'>Tutorials</Link>
 
-              <Link className='item' to='/portfolio'>Portfolio</Link>
+              <Link className='item' to='/projects'>Projects</Link>
 
               <Link className='item' to='/about'>About</Link>
       </div>
@@ -85,8 +85,8 @@ export default function App() {
           <Tutorials />
         </Route>
 
-        <Route path='/portfolio'>
-          <Portfolio />
+        <Route path='/projects'>
+          <Projects />
         </Route>
         
         <Route path='/about'>

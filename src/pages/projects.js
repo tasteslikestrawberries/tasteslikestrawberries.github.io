@@ -1,13 +1,13 @@
 import React from 'react';
 
-const About = () => {
+const Projects = () => {
     return (
         <>
      <div className='header'>
-        <h1>Hello About!</h1>
+        <h1>Hello Projects!</h1>
     </div>
     <div className='content'>
-    <h2>ABOUT</h2>
+    <h2>PROJECTS</h2>
     <hr/>
        
     </div>
@@ -15,4 +15,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Projects

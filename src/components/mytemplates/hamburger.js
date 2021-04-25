@@ -30,7 +30,7 @@ const Burger = () => {
                         
                             <Link onClick={() => closeMenu()} to='/tutorials'>Tutorials</Link>
                         
-                            <Link onClick={() => closeMenu()} to='/portfolio'>Portfolio</Link>
+                            <Link onClick={() => closeMenu()} to='/projects'>projects</Link>
                         
                             <Link onClick={() => closeMenu()} to='/about'>About</Link>
                        

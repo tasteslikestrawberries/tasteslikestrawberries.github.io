@@ -6,6 +6,11 @@ const Articles = () => {
      <div className='header'>
         <h1>Hello Articles!</h1>
     </div>
+    <div className='content'>
+    <h2>ARTICLES</h2>
+    <hr/>
+       
+    </div>
         </>
     )
 }

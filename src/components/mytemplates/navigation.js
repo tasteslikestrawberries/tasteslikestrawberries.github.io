@@ -42,7 +42,7 @@ const Navigation = () => {
 
               <Link className='item' to='/tutorials'>Tutorials</Link>
 
-              <Link className='item' to='/portfolio'>Portfolio</Link>
+              <Link className='item' to='/projects'>projects</Link>
 
               <Link className='item' to='/about'>About</Link>
           </div>
