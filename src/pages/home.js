@@ -15,23 +15,26 @@ const Home = () => {
 <div className='posts'>
 
     <div className='post'>
-         <time>Apr 24</time>Sed ut perspiciatis unde omnis iste natus error sit
+         <time>Apr 24</time>Sed ut perspiciatis unde omnis iste natus error sit<div className='tags'>
+             <span>html</span><span>css</span><span>js</span></div>
     </div>
 
     <div className='post'>
-         <time>Mar 21</time>Sed ut perspiciatis unde omnis iste natus error sit
+         <time>Mar 21</time>Sed ut perspiciatis unde omnis iste natus error sit<div className='tags'>
+             <span>html</span><span>css</span><span>js</span></div>
+    </div>
+    <div className='post'>
+         <time>Feb 19</time>Sed ut perspiciatis unde omnis iste natus error sit<div className='tags'>
+             <span>html</span><span>css</span><span>js</span></div>
+    </div>
+    <div className='post'>
+         <time>Jan 30</time>Sed ut perspiciatis unde omnis iste natus error sit<div className='tags'>
+             <span>html</span><span>css</span><span>js</span></div>
     </div>
 
     <div className='post'>
-         <time>Feb 19</time>Sed ut perspiciatis unde omnis iste natus error sit
-    </div>
-
-    <div className='post'>
-         <time>Jan 30</time>Sed ut perspiciatis unde omnis iste natus error sit
-    </div>
-
-    <div className='post'>
-         <time>Dec 13</time>Sed ut perspiciatis unde omnis iste natus error sit
+         <time>Dec 13</time>Sed ut perspiciatis unde omnis iste natus error sit<div className='tags'>
+             <span>html</span><span>css</span><span>js</span></div>
     </div>
 
 
