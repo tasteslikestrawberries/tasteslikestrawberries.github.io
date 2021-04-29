@@ -68,6 +68,12 @@ export default function App() {
               <Link className='item' to='/about'>About</Link>
       </div>
     
+      <button className='desktopThemeToggle' onClick={() => { handleToggle(); setDarkTheme();}}>{sun ? (
+              <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
+                 ) : (
+              <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
+           )}
+          </button>
 
       </nav>
        
