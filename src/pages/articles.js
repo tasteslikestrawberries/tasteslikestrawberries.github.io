@@ -7,8 +7,8 @@ const Articles = () => {
         <h1>Hello Articles!</h1>
     </div>
     <div className='content'>
-    <h2>ARTICLES</h2>
-    <hr/>
+    <h2>Articles.</h2>
+    <div className='hr'/>
        
     </div>
         </>

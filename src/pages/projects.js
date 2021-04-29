@@ -7,8 +7,8 @@ const Projects = () => {
         <h1>Hello Projects!</h1>
     </div>
     <div className='content'>
-    <h2>PROJECTS</h2>
-    <hr/>
+    <h2>Projects.</h2>
+    <div className='hr'/>
        
     </div>
         </>
