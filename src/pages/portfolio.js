@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Tutorials = () => {
+const Portfolio = () => {
     return (
         <>
-     <div className='header'>
+ <div className='header'>
         <h1></h1>
     </div>
         <div className='contentContainer'>
-            <h2>Tutorials.</h2>
+            <h2>Portfolio.</h2>
              <div className='hr'/>
             <div className='content'>
             </div>
@@ -17,4 +17,4 @@ const Tutorials = () => {
     )
 }
 
-export default Tutorials
+export default Portfolio

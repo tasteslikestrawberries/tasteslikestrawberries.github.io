@@ -9,10 +9,11 @@ import {
 //components
 import Home from './pages/home';
 import Articles from './pages/articles';
-import Tutorials from './pages/tutorials';
-import Projects from './pages/projects';
+import Diary from './pages/diary';
+import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Footer from './components/footer';
+
 
 //icons
 import { Icon } from '@iconify/react';
@@ -59,11 +60,11 @@ export default function App() {
     
       <div className="menuItems">
           
+              <Link className='item' to='/diary'>Diary</Link>
+
               <Link className='item' to='/articles'>Articles</Link>
 
-              <Link className='item' to='/tutorials'>Tutorials</Link>
-
-              <Link className='item' to='/projects'>Projects</Link>
+              <Link className='item' to='/portfolio'>Portfolio</Link>
 
               <Link className='item' to='/about'>About</Link>
       </div>
@@ -83,16 +84,16 @@ export default function App() {
 
       <Switch>
 
+        <Route path='/diary'>
+          <Diary />
+        </Route>
+
         <Route path='/articles'>
           <Articles />
         </Route>
 
-        <Route path='/tutorials'>
-          <Tutorials />
-        </Route>
-
-        <Route path='/projects'>
-          <Projects />
+        <Route path='/portfolio'>
+          <Portfolio />
         </Route>
         
         <Route path='/about'>

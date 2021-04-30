@@ -40,7 +40,7 @@ const Navigation = () => {
           
               <Link className='item' to='/articles'>Articles</Link>
 
-              <Link className='item' to='/tutorials'>Tutorials</Link>
+              <Link className='item' to='/blog'>blog</Link>
 
               <Link className='item' to='/projects'>projects</Link>
 
