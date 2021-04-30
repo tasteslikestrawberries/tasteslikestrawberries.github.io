@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: 'Mulish', sans-serif;
   margin:0;
   padding:0;
 }
@@ -12,12 +11,11 @@ html {
 body {
   margin:0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
   letter-spacing: 0.05rem;
   color: #181717;
-  font-weight:600;
+  
 }
-
 
 .light-theme {
   background-color: #fff;
@@ -39,13 +37,11 @@ body {
 .light-theme nav a {
   text-decoration: none; 
   color: #181717;
-  font-weight: bold;
 }
 
 .dark-theme a:link, a:visited, a:active  {
   text-decoration: none; 
   color: #eeedee;
-  font-weight: bold;
 }
 
 .light-theme a:hover  {
@@ -70,11 +66,11 @@ body {
 
 h1 {
   text-align:center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .dark-theme h1 {
   margin:0;
-  font-size: 40px;
   color:#f8f8f8;
 }
 
@@ -106,6 +102,7 @@ nav {
   display: grid;
   row-gap: 1rem;
   padding: 1.5rem 10vw;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav>:nth-child(1) {
@@ -147,7 +144,6 @@ nav>:nth-child(2) {
   nav>:nth-child(3) {
     align-self: center;
     font-size: 25px;
-
   }
 
   nav>:nth-child(4) {
@@ -162,7 +158,6 @@ nav>:nth-child(2) {
 
   body {
     box-sizing: border-box;
-    font-size: 16px;
   }
 }
 
@@ -182,17 +177,12 @@ nav>:nth-child(2) {
     font-size: 14px;
   }
 
-  .tags {
-    font-size: 12px;
-  }
  }
 
   /*PAGES*/
-
 .contentContainer {
 padding: 1rem 10vw;
 background-color: #fff;
-
 }
 
 .dark-theme .contentContainer {
@@ -217,21 +207,24 @@ background-color: #fff;
 .content {
   box-sizing: border-box;
   text-align:justify;
-  line-height: 1.7em;
+  line-height: 2em;
 }
 
   /*HOME*/
   .posts {
+    box-sizing: border-box;
     display:flex;
     flex-flow: column;
     align-items:center;
   }
 
   time {
+    box-sizing: border-box;
     font-weight:200;
   }
 
   .post {
+    box-sizing: border-box;
     padding: 1rem;
     display: flex;
     font-weight:700; 
@@ -239,16 +232,17 @@ background-color: #fff;
   }
 
   @media (min-width: 700px) {
-    body {
-      font-size: 18px;
-    }
     .post {
       column-gap: 2rem;
     } 
   
-      h2 {
-        text-align: left;
-      }
+    h2 {
+    text-align: left;
+    }
+
+    .contentContainer {
+      font-size: 20px;
+    }
 
    }
 
