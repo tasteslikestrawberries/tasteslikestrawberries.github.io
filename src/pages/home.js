@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Home = () => {
     return (
 <>
@@ -12,7 +13,6 @@ const Home = () => {
     <h2>Latest Posts.</h2>
     <div className='hr'/>
 
-    
         <div className='posts'>
 
             <div className='post'>

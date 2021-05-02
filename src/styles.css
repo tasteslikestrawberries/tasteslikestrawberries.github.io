@@ -116,18 +116,18 @@ nav>:nth-child(2) {
 .menuItems {
   display: inline-flex;
   justify-content: space-evenly;
+  column-gap: 5vw;
 }
 
 @media (min-width: 60rem) {
   .desktopThemeToggle {
     display:inline-block;
-    margin-left: 5rem;
     box-sizing: border-box;
   }
 
   nav {
     box-sizing: border-box;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1.5fr 1fr auto;
     row-gap: 0;
   }
 
@@ -151,6 +151,11 @@ nav>:nth-child(2) {
 
   }
 
+  .menuItems {
+    box-sizing: border-box;
+    column-gap: 2vw;
+    margin: 0 5vw;
+  }
 
   nav a {
     padding: 1rem;
@@ -175,6 +180,12 @@ nav>:nth-child(2) {
   }
   body {
     font-size: 14px;
+  }
+  .post {
+    font-size:13px;
+  }
+  .tags>span {
+    font-size:10px;
   }
 
  }
