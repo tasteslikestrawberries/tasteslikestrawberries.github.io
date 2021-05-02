@@ -153,13 +153,11 @@ nav>:nth-child(2) {
 
   .menuItems {
     box-sizing: border-box;
-    column-gap: 2vw;
+    column-gap: 4vw;
     margin: 0 5vw;
   }
 
-  nav a {
-    padding: 1rem;
-  }
+
 
   body {
     box-sizing: border-box;
