@@ -1,20 +1,35 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.3a9f2b56.chunk.css",
-    "main.js": "/react-app/static/js/main.6242f34c.chunk.js",
-    "main.js.map": "/react-app/static/js/main.6242f34c.chunk.js.map",
+    "main.css": "/react-app/static/css/main.e29d1200.chunk.css",
+    "main.js": "/react-app/static/js/main.0386f7fa.chunk.js",
+    "main.js.map": "/react-app/static/js/main.0386f7fa.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.47128a81.js",
     "runtime-main.js.map": "/react-app/static/js/runtime-main.47128a81.js.map",
-    "static/js/2.9b9691b4.chunk.js": "/react-app/static/js/2.9b9691b4.chunk.js",
-    "static/js/2.9b9691b4.chunk.js.map": "/react-app/static/js/2.9b9691b4.chunk.js.map",
+    "static/js/2.0131af24.chunk.js": "/react-app/static/js/2.0131af24.chunk.js",
+    "static/js/2.0131af24.chunk.js.map": "/react-app/static/js/2.0131af24.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "static/css/main.3a9f2b56.chunk.css.map": "/react-app/static/css/main.3a9f2b56.chunk.css.map",
-    "static/js/2.9b9691b4.chunk.js.LICENSE.txt": "/react-app/static/js/2.9b9691b4.chunk.js.LICENSE.txt"
+    "static/css/main.e29d1200.chunk.css.map": "/react-app/static/css/main.e29d1200.chunk.css.map",
+    "static/js/2.0131af24.chunk.js.LICENSE.txt": "/react-app/static/js/2.0131af24.chunk.js.LICENSE.txt",
+    "static/media/portfolio.23c55aa1.pdf": "/react-app/static/media/portfolio.23c55aa1.pdf",
+    "static/media/thumbBubbly.9608a6c6.png": "/react-app/static/media/thumbBubbly.9608a6c6.png",
+    "static/media/thumbFurnessence.e73c8ce6.png": "/react-app/static/media/thumbFurnessence.e73c8ce6.png",
+    "static/media/thumbHappier.9362102e.png": "/react-app/static/media/thumbHappier.9362102e.png",
+    "static/media/thumbLicitar.4a63cb9f.png": "/react-app/static/media/thumbLicitar.4a63cb9f.png",
+    "static/media/thumbMachineManLayout.235495b2.png": "/react-app/static/media/thumbMachineManLayout.235495b2.png",
+    "static/media/thumbMonochromeParticlesLayout2.ddcb57fa.png": "/react-app/static/media/thumbMonochromeParticlesLayout2.ddcb57fa.png",
+    "static/media/thumbMyCalendar.7123c431.png": "/react-app/static/media/thumbMyCalendar.7123c431.png",
+    "static/media/thumbPrettyPuzzled2.c69909d5.png": "/react-app/static/media/thumbPrettyPuzzled2.c69909d5.png",
+    "static/media/thumbdarkwillow.b2d89c1f.png": "/react-app/static/media/thumbdarkwillow.b2d89c1f.png",
+    "static/media/thumbflowbook.a4381c01.png": "/react-app/static/media/thumbflowbook.a4381c01.png",
+    "static/media/thumblandingpage.d39b3ecd.png": "/react-app/static/media/thumblandingpage.d39b3ecd.png",
+    "static/media/thumbpassionpages.fb119232.png": "/react-app/static/media/thumbpassionpages.fb119232.png",
+    "static/media/thumbrollerskates.e28edf8c.png": "/react-app/static/media/thumbrollerskates.e28edf8c.png",
+    "static/media/thumbtasteslikestrawberries2.497df400.png": "/react-app/static/media/thumbtasteslikestrawberries2.497df400.png"
   },
   "entrypoints": [
     "static/js/runtime-main.47128a81.js",
-    "static/js/2.9b9691b4.chunk.js",
-    "static/css/main.3a9f2b56.chunk.css",
-    "static/js/main.6242f34c.chunk.js"
+    "static/js/2.0131af24.chunk.js",
+    "static/css/main.e29d1200.chunk.css",
+    "static/js/main.0386f7fa.chunk.js"
   ]
 }
