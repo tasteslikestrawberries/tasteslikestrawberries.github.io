@@ -7,13 +7,15 @@ import {
 } from 'react-router-dom';
 
 //components
+
 import Home from './pages/home';
-import Articles from './pages/articles';
 import Diary from './pages/diary';
+import Articles from './pages/articles';
+import PopCult from './pages/articles-popculture';
+import Programming from './pages/articles-programming';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Footer from './components/footer';
-
 
 //icons
 import { Icon } from '@iconify/react';
@@ -21,7 +23,7 @@ import firstQuarterMoonFace from '@iconify/icons-emojione-v1/first-quarter-moon-
 import sunwithfaceIcon from '@iconify/icons-fxemoji/sunwithface';
 
 //assets
-import logo from './components/assets/logo.png';
+import logo from './pages/assets/logo.png';
 
 //styles
 import './styles.css';
@@ -37,80 +39,83 @@ export default function App() {
     const setDarkTheme = () => {setDark(prevTheme => !prevTheme)}
 
   return (
-   <Router>
 
-    <>
-
-    <div className={darkTheme ? 'dark-theme' : 'light-theme'}>
-
-      <nav>
-     
-      <button onClick={() => { handleToggle(); setDarkTheme();}}>{sun ? (
-              <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
-                 ) : (
-              <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
-           )}
-          </button>
-
-
-      <div className="logo">
-              <Link to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
-          </div>
-    
-    
-      <div className="menuItems">
+    <Router>
+      <>
+        <div className={darkTheme ? 'dark-theme' : 'light-theme'}>
           
-              <Link className='item' to='/diary'>Diary</Link>
+          <nav>
+     
+              <button onClick={() => { handleToggle(); setDarkTheme();}}>
+                {sun ? (
+                <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
+                ) : (
+                <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
+                )}
+              </button>
 
-              <Link className='item' to='/articles'>Articles</Link>
+              <div className="logo">
+                <Link to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
+              </div>
+              
+              <div className="menuItems">
+                <Link className='item' to='/diary'>Diary</Link>
+                <Link className='item' to='/articles'>Articles</Link>
+                <Link className='item' to='/portfolio'>Portfolio</Link>
+                <Link className='item' to='/about'>About</Link>
+              </div>
 
-              <Link className='item' to='/portfolio'>Portfolio</Link>
+              <button className='desktopThemeToggle' onClick={() => { handleToggle(); setDarkTheme();}}>
+                {sun ? (
+                <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
+                ) : (
+                <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
+                )}
+              </button>
 
-              <Link className='item' to='/about'>About</Link>
-      </div>
-    
-      <button className='desktopThemeToggle' onClick={() => { handleToggle(); setDarkTheme();}}>{sun ? (
-              <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
-                 ) : (
-              <Icon className='themeToggle' icon={firstQuarterMoonFace} style={{fontSize: '32px'}} />
-           )}
-          </button>
-
-      </nav>
+          </nav>
        
 
     { /* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */ }
 
-      <Switch>
+          <Switch>
 
-        <Route path='/diary'>
-          <Diary />
-        </Route>
+            <Route path='/diary'>
+              <Diary />
+            </Route>
 
-        <Route path='/articles'>
-          <Articles />
-        </Route>
+            <Route path='/articles'>
+              <Articles />
+            </Route>
 
-        <Route path='/portfolio'>
-          <Portfolio />
-        </Route>
-        
-        <Route path='/about'>
-          <About />
-        </Route>
+            <Route path='/articles-popculture'>
+              <PopCult />
+            </Route>
 
-        <Route>
-          <Home />
-        </Route>
+            <Route path='/articles-programming'>
+              <Programming />
+            </Route>
 
-      </Switch>
+            <Route path='/portfolio'>
+              <Portfolio />
+            </Route>
+            
+            <Route path='/about'>
+              <About />
+            </Route>
 
-      <Footer/>
+            <Route>
+              <Home />
+            </Route>
 
-    </div>
+          </Switch>
 
-    </>
+          <Footer/>
+
+        </div>
+
+      </>
    </Router>
 
   );
