@@ -19,7 +19,6 @@ import thumbdarkwillow from './assets/portfoliodesigns/thumbdarkwillow.png';
 import thumblicitar from './assets/portfoliodesigns/thumbLicitar.png';
 
 
-
 const Portfolio = () => {
     return (
     <>
@@ -31,34 +30,34 @@ const Portfolio = () => {
 
             <div className='contentPortfolio'>
 
-            <a href= {portfolio} target='_blank' rel='noreferrer'>Download my portfolio (April 2021, PDF)</a>
-
-            <h2>Web design</h2>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/flowbook.png' target='_blank' rel='noreferrer'><img src={thumbflowbook} alt='flowbook' ></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/landingpage.png' target='_blank' rel='noreferrer'><img src={thumblandingpage} alt='landingpage' ></img></a>
-            {/*<a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled2.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled1} alt='prettypuzzled' ></img></a>*/}
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled1.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled2} alt='prettypuzzled' ></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/tasteslikestrawberries2.png' target='_blank' rel='noreferrer'><img src={thumbtasteslikestrawberries2} alt='tasteslikestrawberries' ></img></a>
-            <a href='https://tasteslikestrawberries.github.io/machineman' target='_blank' rel='noreferrer' ><img src={thumbMachineManLayout} alt='machineman'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/passionpages.png' target='_blank' rel='noreferrer'><img src={thumbpassionpages} alt='passionledushere'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/layouts/monochromeparticles/shop.html' target='_blank' rel='noreferrer'><img src={thumbMonochromeParticlesLayout2} alt='monochromeparticles'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/rollerskates.png' target='_blank' rel='noreferrer'><img src={thumbrollerskates} alt='rollerskates'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Furnessence.png' target='_blank' rel='noreferrer'><img src={thumbFurnessence} alt='furnessence' ></img></a>
+                <a href= {portfolio} target='_blank' rel='noreferrer'>Download my portfolio (April 2021, PDF)</a>
 
             <br/>
 
-            <h2>App design</h2>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/MyCalendar.png' target='_blank' rel='noreferrer'><img src={thumbMyCalendar} alt='bubbly'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Bubbly.png' target='_blank' rel='noreferrer'><img src={thumbBubbly} alt='bubbly'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Happier.png' target='_blank' rel='noreferrer'><img src={thumbHappier} alt='happier'></img></a>
+                <h2>Web design</h2>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/flowbook.png' target='_blank' rel='noreferrer'><img src={thumbflowbook} alt='flowbook' ></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/landingpage.png' target='_blank' rel='noreferrer'><img src={thumblandingpage} alt='landingpage' ></img></a>
+                {/*<a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled2.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled1} alt='prettypuzzled' ></img></a>*/}
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled1.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled2} alt='prettypuzzled' ></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/tasteslikestrawberries2.png' target='_blank' rel='noreferrer'><img src={thumbtasteslikestrawberries2} alt='tasteslikestrawberries' ></img></a>
+                <a href='https://tasteslikestrawberries.github.io/machineman' target='_blank' rel='noreferrer' ><img src={thumbMachineManLayout} alt='machineman'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/passionpages.png' target='_blank' rel='noreferrer'><img src={thumbpassionpages} alt='passionledushere'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/layouts/monochromeparticles/shop.html' target='_blank' rel='noreferrer'><img src={thumbMonochromeParticlesLayout2} alt='monochromeparticles'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/rollerskates.png' target='_blank' rel='noreferrer'><img src={thumbrollerskates} alt='rollerskates'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Furnessence.png' target='_blank' rel='noreferrer'><img src={thumbFurnessence} alt='furnessence' ></img></a>
+
+            <br/>
+
+                <h2>App design</h2>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/MyCalendar.png' target='_blank' rel='noreferrer'><img src={thumbMyCalendar} alt='bubbly'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Bubbly.png' target='_blank' rel='noreferrer'><img src={thumbBubbly} alt='bubbly'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Happier.png' target='_blank' rel='noreferrer'><img src={thumbHappier} alt='happier'></img></a>
 
 
             <br/>
-            <h2>Other work</h2>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/darkwillow.png' target='_blank' rel='noreferrer'><img src={thumbdarkwillow} alt='darkwillow'></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Licitar.png' target='_blank' rel='noreferrer'><img src={thumblicitar} alt='licitar'></img></a>
-
-
+                <h2>Other work</h2>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/darkwillow.png' target='_blank' rel='noreferrer'><img src={thumbdarkwillow} alt='darkwillow'></img></a>
+                <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/Licitar.png' target='_blank' rel='noreferrer'><img src={thumblicitar} alt='licitar'></img></a>
 
             </div>
 

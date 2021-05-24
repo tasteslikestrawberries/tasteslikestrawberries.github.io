@@ -17,7 +17,7 @@ const Header = () => {
                         <Icon icon={wavingHandLightSkinTone} style={{fontSize: '40px'}}/>
                     </div>
 
-                    <br/>
+                <br/>
                     
                     <h2 className='headerText'> My name is Anja and I'm a web-designer and Media Studies graduate from Rijeka, Croatia. <br/><br/>
                      My goal is to create beautiful yet functional designs,

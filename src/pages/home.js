@@ -17,9 +17,9 @@ const Home = () => {
             <div className='posts'>
 
                 <div className='post'>
-                <time>Sep 11/20.</time><Link to='./articles-popculture'>Persuasive Technology: on “The Social Dilemma”</Link>
+                    <time>Sep 11/20.</time><Link to='./articles-popculture'>Persuasive Technology: on “The Social Dilemma”</Link>
                 <div className='tags'>
-                <span>#articles</span><span>#popculture</span></div>
+                    <span>#articles</span><span>#popculture</span></div>
                 </div>
 
 
