@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.5a111bf9.chunk.css",
+    "main.css": "/react-app/static/css/main.a83c9fa9.chunk.css",
     "main.js": "/react-app/static/js/main.0471b077.chunk.js",
     "main.js.map": "/react-app/static/js/main.0471b077.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.47128a81.js",
@@ -8,7 +8,7 @@
     "static/js/2.64a1429e.chunk.js": "/react-app/static/js/2.64a1429e.chunk.js",
     "static/js/2.64a1429e.chunk.js.map": "/react-app/static/js/2.64a1429e.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "static/css/main.5a111bf9.chunk.css.map": "/react-app/static/css/main.5a111bf9.chunk.css.map",
+    "static/css/main.a83c9fa9.chunk.css.map": "/react-app/static/css/main.a83c9fa9.chunk.css.map",
     "static/js/2.64a1429e.chunk.js.LICENSE.txt": "/react-app/static/js/2.64a1429e.chunk.js.LICENSE.txt",
     "static/media/portfolio.23c55aa1.pdf": "/react-app/static/media/portfolio.23c55aa1.pdf",
     "static/media/thumbBubbly.9608a6c6.png": "/react-app/static/media/thumbBubbly.9608a6c6.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.47128a81.js",
     "static/js/2.64a1429e.chunk.js",
-    "static/css/main.5a111bf9.chunk.css",
+    "static/css/main.a83c9fa9.chunk.css",
     "static/js/main.0471b077.chunk.js"
   ]
 }
