@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link,
+  } from 'react-router-dom';
 //import ReactUtterences from 'react-utterances'
 
 //icons
@@ -11,7 +14,7 @@ const PopCult = () => {
     <>
         <div className='contentContainer'>
 
-            <h2>Articles on Pop Culture.</h2>
+        <h2><Link to='/articles'>Articles</Link> / Pop Culture.</h2>
 
         <div className='hr'/>
 

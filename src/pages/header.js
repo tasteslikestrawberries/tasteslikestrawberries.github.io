@@ -25,7 +25,7 @@ const Header = () => {
                     </h2>
                 </span>
 
-                <span>hjkjhk</span>
+                <span></span>
             </div>
 
         </div>

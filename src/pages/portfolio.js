@@ -38,8 +38,8 @@ const Portfolio = () => {
             <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/landingpage.png' target='_blank' rel='noreferrer'><img src={thumblandingpage} alt='landingpage' ></img></a>
             {/*<a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled2.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled1} alt='prettypuzzled' ></img></a>*/}
             <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/PrettyPuzzled1.png' target='_blank' rel='noreferrer'><img src={thumbPrettyPuzzled2} alt='prettypuzzled' ></img></a>
-            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/tasteslikestrawberries.png' target='_blank' rel='noreferrer'><img src={thumbtasteslikestrawberries2} alt='tasteslikestrawberries' ></img></a>
-            <a href='https://tasteslikestrawberries.github.io/react-app' target='_blank' rel='noreferrer' ><img src={thumbMachineManLayout} alt='machineman'></img></a>
+            <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/tasteslikestrawberries2.png' target='_blank' rel='noreferrer'><img src={thumbtasteslikestrawberries2} alt='tasteslikestrawberries' ></img></a>
+            <a href='https://tasteslikestrawberries.github.io/machineman' target='_blank' rel='noreferrer' ><img src={thumbMachineManLayout} alt='machineman'></img></a>
             <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/passionpages.png' target='_blank' rel='noreferrer'><img src={thumbpassionpages} alt='passionledushere'></img></a>
             <a href='https://tasteslikestrawberries.github.io/layouts/monochromeparticles/shop.html' target='_blank' rel='noreferrer'><img src={thumbMonochromeParticlesLayout2} alt='monochromeparticles'></img></a>
             <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/rollerskates.png' target='_blank' rel='noreferrer'><img src={thumbrollerskates} alt='rollerskates'></img></a>

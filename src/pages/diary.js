@@ -15,7 +15,7 @@ const Diary = () => {
             <section>
                 <time id='diaryDate'><h3><b>May 23, 2021.</b></h3></time>
                 <p className='diaryPost'> TA-DA! I finally redesigned this website :) I went for a simple and responsive design. It's made using React library and custom CSS.
-                I plan to keep the old design on GitHub Pages too because I really like it as it's more artsy/old-school. I also added the <Link to='./articles' target='_blank'><b>Articles</b></Link> section
+                I plan to keep the old design on GitHub Pages too because I really like it as it's more artsy/old-school. I also added the <Link to='/articles' target='_blank'><b>Articles</b></Link> section
                  so I'll have a place to keep some of my writing work. There'll be more stuff coming, hopefully I will have the time to work on it during the summer (yay! :)
                 </p>
                 </section>

@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link,
+  } from 'react-router-dom';
 //import ReactUtterences from 'react-utterances'
 
 /*icons
@@ -12,7 +15,7 @@ const Programming = () => {
     <>
         <div className='contentContainer'>
 
-            <h2>Articles on Design and programming.</h2>
+            <h2><Link to='/articles'>Articles</Link> / Design and programming.</h2>
 
         <div className='hr'/>
 

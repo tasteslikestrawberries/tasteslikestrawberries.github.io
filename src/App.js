@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -55,7 +55,7 @@ export default function App() {
               </button>
 
               <div className="logo">
-                <Link to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
+                <Link to="/home"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
               </div>
               
               <div className="menuItems">
@@ -108,6 +108,7 @@ export default function App() {
             <Route>
               <Home />
             </Route>
+
 
           </Switch>
 
