@@ -1,6 +1,8 @@
 import React from 'react';
+
 //assets
 import portfolio from './assets/portfoliodesigns/portfolio.pdf'
+
 //thumbs
 import thumbflowbook from './assets/portfoliodesigns/thumbflowbook.png';
 import thumblandingpage from './assets/portfoliodesigns/thumblandingpage.png';
