@@ -19,13 +19,13 @@ const Header = () => {
 
                     <br/>
                     
-                    <h2 className='headerText'> My name is Anja and I'm a web-designer and writer. <br/>
-                     My goal is to create beautiful yet functional designs, <br/>
+                    <h2 className='headerText'> My name is Anja and I'm a web-designer and Media Studies graduate from Rijeka, Croatia. <br/><br/>
+                     My goal is to create beautiful yet functional designs,
                      to learn and get inspired.
                     </h2>
                 </span>
 
-                <span></span>
+                <span>hjkjhk</span>
             </div>
 
         </div>
