@@ -218,7 +218,7 @@ h3 {
 }
 
 .contentContainer {
-padding: 1rem 10vw;
+padding: 0 10vw;
 background-color: #fff;
 min-height: 80vh;
 }
