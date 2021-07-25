@@ -14,13 +14,13 @@ import ScrollToTop from './components/scrolltotop';
 import Home from './pages/home';
 import Diary from './pages/diary';
 import Articles from './pages/articles';
-import PopCult from './pages/articles-popculture';
-import ArticlesDD from './pages/articles-dd';
+import PopCult from './pages/articles/pc/articles-pc';
+import ArticlesDD from './pages/articles/dd/articles-dd';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Footer from './components/footer';
-import SocialDilemma from './pages/socialdilemma';
-import DemystifyingDevOps from './pages/demystifyingdevops';
+import SocialDilemma from './pages/articles/pc/socialdilemma';
+import DemystifyingDevOps from './pages/articles/dd/demystifyingdevops';
 
 //icons
 import { Icon } from '@iconify/react';
