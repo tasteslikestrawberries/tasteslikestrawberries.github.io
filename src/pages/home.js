@@ -12,19 +12,33 @@ const Home = () => {
             
         <div className='contentContainer'>
             <h2>Latest Posts.</h2>
-        <div className='hr'/>
 
-            <div className='posts'>
+            <div className='hr'/>
 
-                <div className='post'>
-                    <time>Sep 11/20.</time><Link to='./articles-popculture'>Persuasive Technology: on “The Social Dilemma”</Link>
-                <div className='tags'>
-                    <span>#articles</span><span>#popculture</span></div>
+            <div className='postsWrapper'>
+                <div className='posts'>
+
+                    <div className='post'>
+                        <time>Jul 24/21.</time>
+                        <Link to='/dd/demystifyingdevops'>Demystifying DevOps</Link>
+                        <div className='tags'>
+                            <span>#devops</span>
+                            <span>#culture</span>
+                        </div>
+                    </div>
+            
+                    <div className='post'>
+                        <time>Sep 11/20.</time>
+                        <Link to='/pc/socialdilemma/'>Persuasive Technology: on “The Social Dilemma”</Link>
+                        <div className='tags'>
+                            <span>#socialmedia</span>
+                            <span>#informationage</span>
+                        </div>
+
+                    </div>
                 </div>
-
-
             </div>
-        
+
         </div>
 
     </>

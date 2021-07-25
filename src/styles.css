@@ -148,12 +148,17 @@ nav>:nth-child(2) {
 }
 
 /*HOME*/
+
+.postsWrapper {
+  display: flex;
+  justify-content: center;
+}
   
 .posts {
-  box-sizing: border-box;
   display:flex;
+  justify-content: flex-start;
   flex-flow: column;
-  align-items:center;
+  box-sizing: border-box;
 }
 
 time {
@@ -241,7 +246,7 @@ min-height: 80vh;
   line-height: 2em;
 }
 
-     /*DIARY*/
+/*DIARY*/
   .diaryPost, .light-theme .diaryPost {
     background-color: #eeeeee;
     border-radius: 10px;
@@ -257,7 +262,23 @@ min-height: 80vh;
     justify-content: flex-start;
   }
 
-    /*ARTICLES*/
+  /*ARTICLES - MAIN AND TOPICS*/
+  .articlesTopic {
+    display:flex;
+    column-gap: 2rem;
+    align-items: center;
+  }
+
+  .date {
+    margin: 1rem 0;
+    font-size: smaller;
+  }
+
+  /*ARTICLES - PAGES*/
+  p {
+    margin-bottom: 2rem;
+  }
+
   .headerArticle {
     box-sizing: border-box;
     display:flex;
@@ -265,6 +286,10 @@ min-height: 80vh;
     justify-content: space-between;
     margin-bottom:1rem;
     font-weight:bold;
+  }
+
+  .currentCrumb {
+    color: #FC5050;
   }
 
   .headerArticle h2 {
@@ -276,19 +301,15 @@ min-height: 80vh;
 
   .contentArticle {
     text-align: justify;
+    line-height: 2em;
   }
 
   .contentArticle a {
     color:#FC5050;
   }
 
-  .articlesTopic {
-    display:flex;
-    column-gap: 2rem;
-    align-items: center;
-  }
 
-  /*PORTFOLIO*/
+/*PORTFOLIO*/
 
   .contentPortfolio img {
     box-sizing: border-box;
@@ -300,7 +321,7 @@ min-height: 80vh;
     opacity: 1;
   }
 
-  /*ABOUT*/
+/*ABOUT*/
   #me {
     padding: 1rem 2rem;
   }

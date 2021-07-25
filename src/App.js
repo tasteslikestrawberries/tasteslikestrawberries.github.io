@@ -7,15 +7,20 @@ import {
 } from 'react-router-dom';
 
 //components
+import ScrollToTop from './components/scrolltotop';
+import Breadcrumbs from './components/breadcrumbs';
 
+//pages
 import Home from './pages/home';
 import Diary from './pages/diary';
 import Articles from './pages/articles';
 import PopCult from './pages/articles-popculture';
-import Programming from './pages/articles-programming';
+import ArticlesDD from './pages/articles-dd';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Footer from './components/footer';
+import SocialDilemma from './pages/socialdilemma';
+import DemystifyingDevOps from './pages/demystifyingdevops';
 
 //icons
 import { Icon } from '@iconify/react';
@@ -41,6 +46,7 @@ export default function App() {
   return (
 
     <Router>
+      <ScrollToTop />
       <>
         <div className={darkTheme ? 'dark-theme' : 'light-theme'}>
           
@@ -74,7 +80,6 @@ export default function App() {
               </button>
 
           </nav>
-       
 
     { /* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */ }
@@ -85,16 +90,16 @@ export default function App() {
               <Diary />
             </Route>
 
-            <Route path='/articles'>
+            <Route path='/articles' exact>
               <Articles />
             </Route>
 
-            <Route path='/articles-popculture'>
+            <Route path='/articles/pc' >
               <PopCult />
             </Route>
 
-            <Route path='/articles-programming'>
-              <Programming />
+            <Route path='/articles/dd' >
+              <ArticlesDD />
             </Route>
 
             <Route path='/portfolio'>
@@ -103,6 +108,14 @@ export default function App() {
             
             <Route path='/about'>
               <About />
+            </Route>
+
+            <Route path='/dd/demystifyingdevops' >
+              <DemystifyingDevOps />
+            </Route>
+
+            <Route path='/pc/socialdilemma' >
+              <SocialDilemma />
             </Route>
 
             <Route>
@@ -121,7 +134,6 @@ export default function App() {
 
   );
 }
-
 
  /* - home is at the end of the router and IN switch so if no path (previous links) is loaded,
    it loads the one without defined path (home)
