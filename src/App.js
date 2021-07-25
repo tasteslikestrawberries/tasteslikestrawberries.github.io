@@ -8,7 +8,7 @@ import {
 
 //components
 import ScrollToTop from './components/scrolltotop';
-import Breadcrumbs from './components/breadcrumbs';
+//import Breadcrumbs from './components/breadcrumbs';
 
 //pages
 import Home from './pages/home';
