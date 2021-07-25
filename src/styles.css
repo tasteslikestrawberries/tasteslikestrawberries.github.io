@@ -96,6 +96,7 @@ button {
   color: #34353a;
   font-size: 2.5vh;
   font-weight: 200;
+  line-height:1.6em;
 }
 
 .dark-theme .headerText {
@@ -176,6 +177,7 @@ time {
   display: flex;
   font-weight:700; 
   column-gap: 1rem;
+  align-items:center;
 }
 
  .tags {
@@ -229,7 +231,7 @@ min-height: 80vh;
 .hr {
   margin:auto;
   width:100%;
-  margin-bottom:2rem;
+  margin-bottom:1rem;
   height:2px;
   background-color: #eeedee;
   padding: 0 15vw;

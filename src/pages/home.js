@@ -29,16 +29,15 @@ const Home = () => {
             
                     <div className='post'>
                         <time>Sep 11/20.</time>
-                        <Link to='/pc/socialdilemma/'>Persuasive Technology: on “The Social Dilemma”</Link>
+                        <Link to='/pc/socialdilemma'>Persuasive Technology: on “The Social Dilemma”</Link>
                         <div className='tags'>
                             <span>#socialmedia</span>
                             <span>#informationage</span>
                         </div>
-
                     </div>
+
                 </div>
             </div>
-
         </div>
 
     </>
