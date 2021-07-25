@@ -13,7 +13,7 @@ import ScrollToTop from './components/scrolltotop';
 //pages
 import Home from './pages/home';
 import Diary from './pages/diary';
-import Articles from './pages/articles';
+import Articles from './pages/articles/articles';
 import PopCult from './pages/articles/pc/articles-pc';
 import ArticlesDD from './pages/articles/dd/articles-dd';
 import Portfolio from './pages/portfolio';
