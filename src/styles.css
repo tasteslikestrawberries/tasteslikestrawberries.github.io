@@ -285,6 +285,10 @@ min-height: 80vh;
     font-size: smaller;
   }
 
+  h3 {
+    padding-top:1rem;
+  }
+
 /*ARTICLES - PAGES*/
   p {
     margin-bottom: 2rem;
@@ -297,6 +301,12 @@ min-height: 80vh;
     justify-content: space-between;
     margin-bottom:1rem;
     font-weight:bold;
+  }
+
+
+  .headerArticle time{
+    font-weight:200;
+    font-weight:smaller;
   }
 
   .currentCrumb {
@@ -471,4 +481,10 @@ min-height: 80vh;
       width:initial;
     }
   
+  }
+
+  @media (min-width: 80rem) {
+    .post {
+      column-gap: 10rem;
+    }
   }

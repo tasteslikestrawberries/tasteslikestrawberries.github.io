@@ -31,10 +31,9 @@ const Portfolio = () => {
         <div className='hr'/>
 
             <div className='contentPortfolio'>
-
-                <a href= {portfolio} target='_blank' rel='noreferrer'>Download my portfolio (April 2021, PDF)</a>
-
             <br/>
+                <a href= {portfolio} target='_blank' rel='noreferrer'>Download my portfolio (April 2021, PDF)</a>
+            <br/><br/>
 
                 <h2>Web design</h2>
                 <a href='https://tasteslikestrawberries.github.io/assets/portfoliodesigns/flowbook.png' target='_blank' rel='noreferrer'><img src={thumbflowbook} alt='flowbook' ></img></a>
