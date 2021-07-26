@@ -4,7 +4,6 @@ import {
   } from 'react-router-dom';
   import Header from '../components/header';
 
-
 const Home = () => {
     return (
     <>
@@ -19,7 +18,7 @@ const Home = () => {
                 <div className='posts'>
 
                     <div className='post'>
-                        <time>Jul 24/21.</time>
+                        <time className='postTime'>Jul 24/21.</time>
                         <Link to='/dd/demystifyingdevops'>Demystifying DevOps</Link>
                         <div className='tags'>
                             <span>#devops</span>
@@ -28,7 +27,7 @@ const Home = () => {
                     </div>
             
                     <div className='post'>
-                        <time>Sep 11/20.</time>
+                        <time className='postTime'>Sep 11/20.</time>
                         <Link to='/pc/socialdilemma'>Persuasive Technology: on “The Social Dilemma”</Link>
                         <div className='tags'>
                             <span>#socialmedia</span>

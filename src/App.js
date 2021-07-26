@@ -50,7 +50,7 @@ export default function App() {
               </button>
 
               <div className="logo">
-                <Link to="/home"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
+                <Link to="/"><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
               </div>
               
               <div className="menuItems">
