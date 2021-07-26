@@ -2,25 +2,14 @@ import React, { useState} from 'react';
 import {
   HashRouter as Router,
   Switch,
-  Route,
   Link,
 } from 'react-router-dom';
 
 //components
+import Routes from './components/routes';
 import ScrollToTop from './components/scrolltotop';
-//import Breadcrumbs from './components/breadcrumbs';
-
-//pages
-import Home from './pages/home';
-import Diary from './pages/diary';
-import Articles from './pages/articles/articles';
-import PopCult from './pages/articles/pc/articles-pc';
-import ArticlesDD from './pages/articles/dd/articles-dd';
-import Portfolio from './pages/portfolio';
-import About from './pages/about';
 import Footer from './components/footer';
-import SocialDilemma from './pages/articles/pc/socialdilemma';
-import DemystifyingDevOps from './pages/articles/dd/demystifyingdevops';
+//import Breadcrumbs from './components/breadcrumbs';
 
 //icons
 import { Icon } from '@iconify/react';
@@ -70,7 +59,7 @@ export default function App() {
                 <Link className='item' to='/portfolio'>Portfolio</Link>
                 <Link className='item' to='/about'>About</Link>
               </div>
-
+              
               <button className='desktopThemeToggle' onClick={() => { handleToggle(); setDarkTheme();}}>
                 {sun ? (
                 <Icon className='themeToggle' icon={sunwithfaceIcon} style={{fontSize: '32px'}} />
@@ -86,42 +75,7 @@ export default function App() {
 
           <Switch>
 
-            <Route path='/diary'>
-              <Diary />
-            </Route>
-
-            <Route path='/articles' exact>
-              <Articles />
-            </Route>
-
-            <Route path='/articles/pc' >
-              <PopCult />
-            </Route>
-
-            <Route path='/articles/dd' >
-              <ArticlesDD />
-            </Route>
-
-            <Route path='/portfolio'>
-              <Portfolio />
-            </Route>
-            
-            <Route path='/about'>
-              <About />
-            </Route>
-
-            <Route path='/dd/demystifyingdevops' >
-              <DemystifyingDevOps />
-            </Route>
-
-            <Route path='/pc/socialdilemma' >
-              <SocialDilemma />
-            </Route>
-
-            <Route>
-              <Home />
-            </Route>
-
+            <Routes />
 
           </Switch>
 

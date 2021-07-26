@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useLocation, useRouteMatch, Link, Route } from 'react-router-dom';
+
 
 const Breadcrumbs = () => {
     const { path, url } = useRouteMatch()
@@ -8,6 +8,7 @@ const Breadcrumbs = () => {
   return (
       <>
     <h2 className='currentCrumb'><Link to='/'>Articles</Link> / Pop Culture.</h2>
+    <div className='hr'/>
     </>
   ) 
 }
