@@ -81,16 +81,18 @@ export default function App() {
 
           </nav>
 
-          { /* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */ }
+          { /*With <Switch>, only the first child <Route> that matches the location gets rendered.*/ }
 
           <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
             
             <Route path='/diary'>
               <Diary />
             </Route>
 
-            <Route path='/articles' exact>
+            <Route exact path='/articles'>
               <Articles />
             </Route>
 
@@ -116,10 +118,6 @@ export default function App() {
 
             <Route path='/pc/socialdilemma' >
               <SocialDilemma />
-            </Route>
-
-            <Route>
-              <Home />
             </Route>
 
           </Switch>
