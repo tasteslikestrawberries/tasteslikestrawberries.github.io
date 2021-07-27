@@ -49,7 +49,7 @@ export default function App() {
               </button>
 
               <div className="logo">
-                <Link to='/'><img src={logo} alt='logo' width='90px' height='130px'/></Link>  
+                <Link to='/'><img src={logo} alt='logo' width='90px' height='110px'/></Link>  
               </div>
               
               <div className="menuItems">
