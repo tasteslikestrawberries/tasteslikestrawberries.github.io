@@ -213,7 +213,7 @@ h3 {
 .contentContainer {
 padding: 0 10vw;
 background-color: #fff;
-min-height: 40vh;
+min-height: 80vh;
 }
 
 .dark-theme .contentContainer {
