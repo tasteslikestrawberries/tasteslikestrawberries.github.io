@@ -1,26 +1,14 @@
 import React, { useState} from 'react';
 import {
   HashRouter as Router,
-  Route,
-  Switch,
   Link,
 } from 'react-router-dom';
 
 //components
+import Routes from './components/routes';
 import ScrollToTop from './components/scrolltotop';
 import Footer from './components/footer';
 //import Breadcrumbs from './components/breadcrumbs';
-
-//pages
-import Home from './pages/home';
-import Diary from './pages/diary';
-import Articles from './pages/articles/articles';
-import PopCult from './pages/articles/pc/articles-pc';
-import ArticlesDD from './pages/articles/dd/articles-dd';
-import Portfolio from './pages/portfolio';
-import About from './pages/about';
-import SocialDilemma from './pages/articles/pc/socialdilemma';
-import DemystifyingDevOps from './pages/articles/dd/demystifyingdevops';
 
 //icons
 import { Icon } from '@iconify/react';
@@ -83,44 +71,7 @@ export default function App() {
 
           { /*With <Switch>, only the first child <Route> that matches the location gets rendered.*/ }
 
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            
-            <Route path='/diary'>
-              <Diary />
-            </Route>
-
-            <Route exact path='/articles'>
-              <Articles />
-            </Route>
-
-            <Route path='/articles/pc' >
-              <PopCult />
-            </Route>
-
-            <Route path='/articles/dd' >
-              <ArticlesDD />
-            </Route>
-
-            <Route path='/portfolio'>
-              <Portfolio />
-            </Route>
-            
-            <Route path='/about'>
-              <About />
-            </Route>
-
-            <Route path='/dd/demystifyingdevops' >
-              <DemystifyingDevOps />
-            </Route>
-
-            <Route path='/pc/socialdilemma' >
-              <SocialDilemma />
-            </Route>
-
-          </Switch>
+          <Routes />
 
           <Footer/>
         </div>
@@ -129,9 +80,3 @@ export default function App() {
 
   );
 }
-
- /* - home is at the end of the router and IN switch so if no path (previous links) is loaded,
-   it loads the one without defined path (home)
-   - without switch router would load every component with or without path, but with switch 
-   just the 1st one loads and the other ones don't  
-*/
