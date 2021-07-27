@@ -311,7 +311,7 @@ min-height: 80vh;
   .contentPortfolio img {
     box-sizing: border-box;
     opacity: 0.5;
-    width:35vw;
+    width:80vw;
   }
 
   .contentPortfolio img:hover {
@@ -466,7 +466,8 @@ min-height: 80vh;
 
     .contentPortfolio img {
       box-sizing: border-box;
-      width:initial;
+      width:470px;
+      height:300px;
     }
   
   }
