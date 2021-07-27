@@ -18,7 +18,7 @@ const SocialDilemma = () => {
                 
                 <div className='headerArticle'>
                     <h2>Persuasive Technology: On “The Social Dilemma”</h2>
-                    <time>Sep 11, 2020.</time> 
+                    <div className='headerArticleInfo'>By <Link to='/about'><b>Anja Mustać</b></Link> on <time>Sep 11, 2020.</time></div>
                 </div>
 
                 <div className='contentArticle'>

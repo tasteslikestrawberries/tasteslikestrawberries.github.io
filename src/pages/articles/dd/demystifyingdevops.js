@@ -19,7 +19,7 @@ const DemystifyingDevOps = () => {
 
           <div className='headerArticle'>
             <h2>Demystifying DevOps</h2>
-            <time>Jul 24, 2021.</time> 
+            <div className='headerArticleInfo'>By <Link to='/about'><b>Anja Mustać</b></Link> on <time>Jul 24, 2021.</time></div>
           </div>
 
           <div className='contentArticle'>

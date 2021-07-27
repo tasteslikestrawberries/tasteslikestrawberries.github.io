@@ -31,7 +31,6 @@ const Portfolio = () => {
         <div className='hr'/>
 
             <div className='contentPortfolio'>
-            <br/>
                 <a href= {portfolio} target='_blank' rel='noreferrer'>Download my portfolio (April 2021, PDF)</a>
             <br/><br/>
 

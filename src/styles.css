@@ -278,17 +278,11 @@ min-height: 80vh;
 
   .headerArticle {
     box-sizing: border-box;
-    display:flex;
-    column-gap: 2rem;
-    justify-content: space-between;
-    margin-bottom:1rem;
-    font-weight:bold;
+    margin-bottom:2rem;
   }
 
-
-  .headerArticle time{
-    font-weight:200;
-    font-weight:smaller;
+  .headerArticleInfo{
+    font-size:smaller;
   }
 
   .currentCrumb {
@@ -414,6 +408,9 @@ min-height: 80vh;
       flex-wrap: nowrap;
      }
 
+     .headerArticle {
+      margin-bottom:3rem;
+    }
    }
 
    @media (min-width: 60rem) {
