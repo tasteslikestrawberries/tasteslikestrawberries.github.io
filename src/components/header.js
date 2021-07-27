@@ -4,12 +4,15 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 import wavingHandLightSkinTone from '@iconify/icons-emojione/waving-hand-light-skin-tone';
 
+//assets
+import headerlogo from '../pages/assets/headerlogo.png'
+
 const Header = () => {
     return (
     <>
         <div className='header'>
     
-            <div className='headerMain'>
+            <div className='headerIntro'>
 
                 <span>
                     <div className='hello'>
@@ -25,8 +28,18 @@ const Header = () => {
                     </h2>
                 </span>
 
-                <span></span>
             </div>
+
+            <span className='headerAnimation'>
+                <img src={headerlogo} className='headerLogo' alt='headerlogo' style={{width: '10vw'}} ></img>
+                <div className='dots'></div>
+            </span>
+
+      
+               
+                  
+              
+                  
 
         </div>
     </>

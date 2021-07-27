@@ -54,10 +54,12 @@ body {
 
 .header, .light-theme .header {
   display:flex;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
   align-items: center;
   height: 28rem;
   background-color: #eeeeee ;
-  padding: 1rem;
+  padding: 0 0vw;
 }
 
 .dark-theme .header {
@@ -83,10 +85,9 @@ button {
   cursor:pointer;
 }
 
-.headerMain {
-  padding:1rem;
+.headerIntro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   letter-spacing: 0.1em;
   line-height: 2em;
@@ -94,9 +95,10 @@ button {
 
 .headerText, .light-theme .headerText {
   color: #34353a;
-  font-size: 2.5vh;
+  font-size: 1rem;
   font-weight: 200;
   line-height:1.6em;
+  max-width: 45vw;
 }
 
 .dark-theme .headerText {
@@ -211,7 +213,7 @@ h3 {
 .contentContainer {
 padding: 0 10vw;
 background-color: #fff;
-min-height: 80vh;
+min-height: 40vh;
 }
 
 .dark-theme .contentContainer {
@@ -388,8 +390,12 @@ min-height: 80vh;
     #contentPortfolio img {
       width: 100%;
     }
-  }
 
+    .headerAnimation{
+      display:none !important;
+    }
+
+  }
 
    @media (min-width: 700px) {
     h2 {
@@ -411,6 +417,7 @@ min-height: 80vh;
      .headerArticle {
       margin-bottom:3rem;
     }
+
    }
 
    @media (min-width: 60rem) {
@@ -469,5 +476,93 @@ min-height: 80vh;
       width:470px;
       height:300px;
     }
-  
   }
+
+    @media (max-width: 905px) {
+    .headerText, .light-theme .headerText {
+      font-size: 1rem;
+      line-height:1.3em;
+      max-width: 50vw;
+    }
+  }
+
+  /*
+  Dots
+ */
+ .headerAnimation {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+ }
+
+.dots {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dots 1s infinite linear alternate;
+  animation-delay: .6s;
+}
+
+.dots::before, .dots::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dots::before {
+  left: -20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dots 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dots::after {
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dots 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dots {
+  0% {
+    background-color: #9880ff;
+  }
+  50%,
+  100% {
+    background-color: #ebe6ff;
+  }
+}
+
+@media (max-width: 500px) {
+  .dots {
+    width: 8px;
+    height: 8px;
+  }
+  .dots::before {
+    left: -12px;
+    width: 8px;
+    height: 8px;
+  }
+
+  .dots::after {
+    left: 12px;
+    width: 8px;
+    height: 8px;
+   
+  }
+
+}
