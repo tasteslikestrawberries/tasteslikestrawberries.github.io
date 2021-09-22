@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.02c63ef5.chunk.css",
-    "main.js": "/static/js/main.1e2a2b35.chunk.js",
-    "main.js.map": "/static/js/main.1e2a2b35.chunk.js.map",
+    "main.js": "/static/js/main.8161af23.chunk.js",
+    "main.js.map": "/static/js/main.8161af23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1a77d0ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.1a77d0ad.js.map",
     "static/js/2.c95d40ff.chunk.js": "/static/js/2.c95d40ff.chunk.js",
@@ -10,7 +10,20 @@
     "index.html": "/index.html",
     "static/css/main.02c63ef5.chunk.css.map": "/static/css/main.02c63ef5.chunk.css.map",
     "static/js/2.c95d40ff.chunk.js.LICENSE.txt": "/static/js/2.c95d40ff.chunk.js.LICENSE.txt",
-    "static/media/portfolio.b0c2d2b4.pdf": "/static/media/portfolio.b0c2d2b4.pdf",
+    "static/media/Bubbly.6ee3bf78.png": "/static/media/Bubbly.6ee3bf78.png",
+    "static/media/Furnessence.fed43c72.png": "/static/media/Furnessence.fed43c72.png",
+    "static/media/Happier.355bfe04.png": "/static/media/Happier.355bfe04.png",
+    "static/media/Licitar.e8a2941f.png": "/static/media/Licitar.e8a2941f.png",
+    "static/media/MachineManLayout.0d5831cd.png": "/static/media/MachineManLayout.0d5831cd.png",
+    "static/media/MyCalendar.a39d953a.png": "/static/media/MyCalendar.a39d953a.png",
+    "static/media/PrettyPuzzled2.79bb6c86.png": "/static/media/PrettyPuzzled2.79bb6c86.png",
+    "static/media/darkwillow.c1444f06.png": "/static/media/darkwillow.c1444f06.png",
+    "static/media/flowbook.7eaf224a.png": "/static/media/flowbook.7eaf224a.png",
+    "static/media/landingpage.75c7f002.png": "/static/media/landingpage.75c7f002.png",
+    "static/media/passionpages.54abced4.png": "/static/media/passionpages.54abced4.png",
+    "static/media/portfolio.1dfe4dd7.pdf": "/static/media/portfolio.1dfe4dd7.pdf",
+    "static/media/rollerskates.c483d101.png": "/static/media/rollerskates.c483d101.png",
+    "static/media/tasteslikestrawberries2.f10d276a.png": "/static/media/tasteslikestrawberries2.f10d276a.png",
     "static/media/thumbBubbly.9608a6c6.png": "/static/media/thumbBubbly.9608a6c6.png",
     "static/media/thumbFurnessence.e73c8ce6.png": "/static/media/thumbFurnessence.e73c8ce6.png",
     "static/media/thumbHappier.9362102e.png": "/static/media/thumbHappier.9362102e.png",
@@ -30,6 +43,6 @@
     "static/js/runtime-main.1a77d0ad.js",
     "static/js/2.c95d40ff.chunk.js",
     "static/css/main.02c63ef5.chunk.css",
-    "static/js/main.1e2a2b35.chunk.js"
+    "static/js/main.8161af23.chunk.js"
   ]
 }
