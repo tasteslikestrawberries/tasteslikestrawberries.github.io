@@ -36,14 +36,9 @@ const Diary = () => {
                     <time className='diaryDate'><h3><b>March 3, 2021.</b></h3></time>
                     <p className='diaryPost'>So lately I've been working on a few designs in Figma. I like it a lot as it is a very powerful and easy to use tool. 
                     You can see them in the <Link to='./portfolio' target='_blank'><b>Portfolio</b></Link> section and on my
-                     <a href='https://dribbble.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><b>Dribble</b></a> 
-                     profile. I'm trying to balance designing and coding because I really enjoy both and there is so much to learn. 
-                     Currently I'm trying to teach myself Javascript and it hasn't been easy as I don't have any real programming
-                    skills, except making websites with HTML and CSS (which I think doesn't really count as programming). But it's a huge 
-                    challenge and I'm not planning to give up easily. Also, I've been thinking of writing more about my learning process here and writing more in general. We'll see, maybe this site needs a little reorganisation :))
+                     <a href='https://dribbble.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><b>Dribble</b></a> profile. 
                     </p>
                 </section>
-
 
                 <section>
                     <time className='diaryDate'><h3><b>February 16, 2021.</b></h3></time>

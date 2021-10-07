@@ -44,21 +44,14 @@ const About = () => {
                     I had some free time on my hands to rethink what I really wanted to do, and that's when I started thinking about 
                     making websites and designing again. </p>
                 
-                <p>And, when I got into it, I discovered a whole new world of possibilities 
-                but also the fact that the web-design world still (fortunately :D) relies on HTML and CSS. So I picked up where I left
-                off years ago and started to research everything front-end related. I started learning Javascript and React which was 
-                supposed to make Javascript a bit easier, but I see there is no shortcut to learning it. </p>
+                <p>And, when I got into it, I discovered a whole new world of possibilities but also the fact that the web-design world still (fortunately)
+                   relies on HTML and CSS. So I picked up where I left off years ago and started to research everything front-end related. I started learning 
+                   Javascript which was a real challenge as I didn't have any previous programming experience. I also discovered the power of CSS. 
+                   There is so much you can do today using just pure CSS so you don't actually have to reach for Javascript every time. </p>
                 
-                <p>Javascript is not easy for me to learn as I don't have any real programming skills or experience, but it's a challenge 
-                    and without Javascript, it's just static HTML code which makes websites, well ...boring. I also discovered the power of CSS. 
-                    There is so much you can do today using just pure CSS so you don't actually have to reach for Javascript every time. 
-                    But, after a few months of coding and designing layouts in Visual Studio and publishing to Github Pages, I found out about 
-                    something called UI/UX design.</p>
-                
-                <p>I started reading about it and it was a perfect fit for me as it seemed to unite my interest in front-end development with design,
-                plus the whole user-context-product research and analysis part which got my attention immediately because it's something I can connect 
-                to my Media and Cultural studies education. So, I decided to really work on both coding and design, because they're one of the very 
-                few things I really enjoy doing.</p>
+                <p>After a few months of coding and designing websites, I found out about something called UI/UX design which caught my attention immediately. 
+                  I always loved researching stuff and it was something I could relate to my Media and Cultural Studies education but also connect with my interest 
+                  in front-end development. So, I decided to really work on both coding and design, because they're one of the very few things I really enjoy doing.</p>
                 
                 <p>It's mentally challenging, it's fun and I don't notice the hours as they go by while
                 I'm doing it. And in some way it connects me to my childhood, the time when everything was way simpler and Internet was a bit
