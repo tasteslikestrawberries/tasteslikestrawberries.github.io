@@ -35,7 +35,7 @@ const Diary = () => {
                 <section>
                     <time className='diaryDate'><h3><b>March 3, 2021.</b></h3></time>
                     <p className='diaryPost'>So lately I've been working on a few designs in Figma. I like it a lot as it is a very powerful and easy to use tool. 
-                    You can see them in the <Link to='./portfolio' target='_blank'><b>Portfolio</b></Link> section and on my
+                    You can see them in the <Link to='./portfolio' target='_blank'><b>Portfolio</b></Link> section and on my 
                      <a href='https://dribbble.com/tasteslikestrawberries' target='_blank' rel='noreferrer'><b>Dribble</b></a> profile. 
                     </p>
                 </section>
