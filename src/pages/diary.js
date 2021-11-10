@@ -39,7 +39,7 @@ const Diary = () => {
               and responsive design. It's made using React library and custom
               CSS. I plan to keep the old design on GitHub Pages too because I
               really like it as it's more artsy/old-school. I also added the{" "}
-              <Link to="/articles" target="_blank">
+              <Link to="/articles">
                 <b>Articles</b>
               </Link>{" "}
               section so I'll have a place to keep some of my writing work.
