@@ -11,11 +11,30 @@ const Diary = () => {
           <section>
             <time className="diaryDate">
               <h3>
+                <b>November 11, 2021.</b>
+              </h3>
+            </time>
+            <p className="diaryPost">
+              It's been a while! I started a new job a few months ago, my first
+              job as a web developer and I'm very grateful I got a chance to
+              become better at what I love doing. I've been learning Angular and
+              even though I was sad I won't be coding in React anymore (at least
+              while working :D), I have to say I'm actually amazed by how things
+              are done in Angular. It's really powerful and a lot of things are
+              actually much easier done than in React. It reinforces some really
+              good coding practices and it introduced me to RxJS which currently
+              occupies my mind the most. I'm excited about all the
+              possibilities! True, Typescript is kind of a pain in the ass, but
+              at the same time it's like the coolest thing :)
+            </p>
+          </section>
+          <section>
+            <time className="diaryDate">
+              <h3>
                 <b>May 23, 2021.</b>
               </h3>
             </time>
             <p className="diaryPost">
-              {" "}
               TA-DA! I finally redesigned this website :) I went for a simple
               and responsive design. It's made using React library and custom
               CSS. I plan to keep the old design on GitHub Pages too because I
