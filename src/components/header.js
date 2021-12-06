@@ -22,9 +22,8 @@ const Header = () => {
 
                 <br/>
                     
-                    <h2 className='headerText'> My name is Anja and I'm a front-end developer from Rijeka, Croatia. <br/><br/>
-                     My passion is creating reactive web apps with a user-friendly interface. I enjoy learning new technologies and
-                     getting inspired. 
+                    <h2 className='headerText'>My name is Anja and I'm a front-end developer and web designer from Rijeka, Croatia. <br/><br/>
+                     I love being creative in the digital environment and learning new technologies. Welcome to my website!  
                     </h2>
                 </span>
 
